@@ -5,7 +5,7 @@ public class Crema extends DecoratorComplemento {
     }
 
     public String getDescripcion(){
-        return bebida.getDescripcion() + "con crema";
+        return bebida.getDescripcion() + " con crema";
     }
     public double costo(){
         return .10 + bebida.costo();

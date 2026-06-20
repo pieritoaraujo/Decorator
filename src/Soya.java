@@ -4,7 +4,7 @@ public class Soya extends DecoratorComplemento {
         this.bebida = bebida;
     }
     public String getDescripcion(){
-        return bebida.getDescripcion() + "con soya";
+        return bebida.getDescripcion() + " con soya";
     }
     public double costo(){
         return .15 + bebida.costo();

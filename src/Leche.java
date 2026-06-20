@@ -4,7 +4,7 @@ public class Leche extends DecoratorComplemento {
         this.bebida = bebida;
     }
     public String getDescripcion(){
-        return bebida.getDescripcion() + "con leche";
+        return bebida.getDescripcion() + " con leche";
     }
     public double costo(){
         return .10 + bebida.costo();
